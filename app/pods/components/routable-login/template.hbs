@@ -1,0 +1,18 @@
+<div class="title">TOTALY NOT ©ATAN</div>
+<div class="login-box card">
+    <div class="row">
+        <div class="input-field col s12">
+            <Input id="username" @key-press={{action "updateUserName"}} />
+            <label for="username">email</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s12">
+            <Input @key-press={{action "updatePassword"}} />
+            <label for="username">password</label>
+        </div>
+    </div>
+    <div class="login-button-container">
+        <a {{action "clickLogin"}} class="waves-effect waves-light btn login-button">log in</a>
+    </div>
+</div>

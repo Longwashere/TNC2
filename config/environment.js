@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'tnc2',
+    podModulePrefix: 'tnc2/pods',
     environment,
     rootURL: '/',
     locationType: 'auto',

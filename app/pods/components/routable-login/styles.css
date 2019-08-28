@@ -1,0 +1,16 @@
+.title {
+  font-size: 36px;
+  color: white;
+}
+
+.card {
+  padding: 15px;
+}
+
+.login-button {
+  display: inline-block;
+}
+
+.login-button-container{
+  text-align: center;
+}
